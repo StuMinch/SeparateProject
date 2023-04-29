@@ -13,7 +13,6 @@
 		17A2584B29FC768700F5DE3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A2584A29FC768700F5DE3E /* Preview Assets.xcassets */; };
 		17A2585529FC768700F5DE3E /* SeparateProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A2585429FC768700F5DE3E /* SeparateProjectTests.swift */; };
 		17A2585F29FC768700F5DE3E /* SeparateProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A2585E29FC768700F5DE3E /* SeparateProjectUITests.swift */; };
-		17A2586129FC768700F5DE3E /* SeparateProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A2586029FC768700F5DE3E /* SeparateProjectUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		17A2585429FC768700F5DE3E /* SeparateProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateProjectTests.swift; sourceTree = "<group>"; };
 		17A2585A29FC768700F5DE3E /* SeparateProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeparateProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A2585E29FC768700F5DE3E /* SeparateProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateProjectUITests.swift; sourceTree = "<group>"; };
-		17A2586029FC768700F5DE3E /* SeparateProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				17A2585E29FC768700F5DE3E /* SeparateProjectUITests.swift */,
-				17A2586029FC768700F5DE3E /* SeparateProjectUITestsLaunchTests.swift */,
 			);
 			path = SeparateProjectUITests;
 			sourceTree = "<group>";
@@ -275,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A2585F29FC768700F5DE3E /* SeparateProjectUITests.swift in Sources */,
-				17A2586129FC768700F5DE3E /* SeparateProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +421,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.minchington.SeparateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,11 +451,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.minchington.SeparateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
